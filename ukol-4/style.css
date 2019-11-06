@@ -7,6 +7,7 @@ body {
 }
 .profil{
     width: 250px;
+    height: 620px;
     margin-top: 2rem;
     margin-left: 1rem;
     background-color: #31363b;
@@ -40,10 +41,15 @@ body {
 }
 .odkazy{
     padding:0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
 }
 .portfolio{
-    display:block;  
-    margin-bottom:2rem;
+    display:inline-block;
+    width:100%;
+    margin-bottom: 2rem;
+
 }
 .portfolio a{
     color: #c5c2c2;
@@ -54,16 +60,15 @@ body {
 
     border-top: 1px solid #3f464d;
     border-bottom:1px solid #3f464d;
-
-    width:100%;
-    padding: 15px 45px 15px 52px;
+    padding: 15px 50px 15px 50px;
+    
 }
 .portfolio a:hover{
     background-color:#e74c3c;
     color:white;
 }
 .facebook{
-    display:block;  
+      display: inline-block;
 }
 .facebook a{
     color: #c5c2c2;
@@ -72,9 +77,9 @@ body {
     font-weight: 700;
     text-decoration: none;
 
-    width:125px;
-    padding: 16px 20px 18px 20px;
+    
     border-right: 1px solid #3f464d;
+    padding: 15px 18px 15px 18px;
     
 }
 .facebook a:hover{ 
@@ -83,7 +88,7 @@ body {
 }
 
 .twitter{
-    display:block;   
+    display: inline-block;   
 }
 .twitter a{
     color: #c5c2c2;
@@ -91,12 +96,7 @@ body {
     font-size: 1rem;
     font-weight: 700;
     text-decoration: none;
-
-    width:125px;
-    position: relative;
-    bottom:18px;
-    left:137px;
-    padding: 17px 18.5px 17px 19px;
+    padding: 15px 23px 15px 23px;
 }
 .twitter a:hover{ 
     background-color:#1da1f2;
