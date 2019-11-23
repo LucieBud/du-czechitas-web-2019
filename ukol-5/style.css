@@ -1,0 +1,125 @@
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+body {
+    background-color: #bdc3c7;
+}
+.profil{
+    width: 250px;
+    height: 620px;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    background-color: #31363b;
+    box-shadow: 2px 2px 15px 1px #3f464d;
+}
+.foto{
+    width: 100%;
+    position:relative;
+}
+.obsah{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #c5c2c2;
+    font-size: 1rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    padding-bottom:1rem;
+    
+}
+.jmeno{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color:white;
+    font-size: 1.5rem;
+}
+.logo{
+    background-color: #b92e81;
+    border-radius: 50rem;
+    position:absolute;
+    top: 170px;
+    left: 200px;
+}
+.odkazy{
+    padding:0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.portfolio{
+    display:inline-block;
+    width:100%;
+    margin-bottom: 2rem;
+
+}
+.portfolio a{
+    color: #c5c2c2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+
+    border-top: 1px solid #3f464d;
+    border-bottom:1px solid #3f464d;
+    padding: 15px 50px 15px 50px;
+    
+}
+.portfolio a:hover{
+    background-color:#e74c3c;
+    color:white;
+}
+.facebook{
+      display: inline-block;
+}
+.facebook a{
+    color: #c5c2c2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+
+    
+    border-right: 1px solid #3f464d;
+    padding: 15px 18px 15px 18px;
+    
+}
+.facebook a:hover{ 
+    background-color:#3b5998;
+    color: white;
+}
+
+.twitter{
+    display: inline-block;   
+}
+.twitter a{
+    color: #c5c2c2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 15px 23px 15px 23px;
+}
+.twitter a:hover{ 
+    background-color:#1da1f2;
+    color: white;
+}
+
+/*
+ BARVY
+ czechitas  #b92e81
+ pozadi     #bdc3c7
+ tmava      #31363b
+ delitka    #3f464d
+ portfolio  #e74c3c
+ facebook   #3b5998
+ twitter    #1da1f2
+ 
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+*/
+
+
+
