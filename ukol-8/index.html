@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mobilní aplikace</title>
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+    </head>
+    <body>
+        <div class="obal">
+
+            <header class="hlavni">
+                <a class="brand" href="#">SUPER APPKA</a>
+                <nav id="ted" class="hlavicka">
+                    <ul>
+                        <li> 
+                            <a class="design" href="#" >Úžasný design</a>
+                        </li>
+                        <li> 
+                            <a class="funkce" href="#"> Boží funkce </a>
+                        </li>
+                        <li>  
+                            <a class="zdarma" href="#"> Zdarma ke stažení </a>
+                        </li>
+                    </ul>
+                </nav>
+                <img id="button" class="menu" src="images/menu.png" alt="">
+            </header>
+            <main>
+                <section class="prvni">
+                    <div class="odstavec">
+                        <h1>Super Appka</h1>
+                        <p>Úžasná mobilní aplikace, která Ti změní život.
+                        </p>
+                        <div class="tlacitka">
+                            <a class="stahnout" href="#">Stáhnout zdarma</a>
+                            <a class="info" href="#">Více informací</a>
+                        </div>
+                    </div>
+                    <img class="ruka" src="images/telefon.png" alt= "">
+                </section>
+                <section class="druha">
+                    <article class="cestuj">
+                        <img src="images/letadlo.svg" alt= "">
+                        <h2>Cestuj po světě</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero temporibus quis esse, aut eaque maiores, eligendi sed iusto distinctio accusantium, adipisci nulla alias.
+                        </p>
+                    </article>
+                    <article class="chatuj">
+                        <img src="images/bubliny.svg" alt= "">
+                        <h2>Chatuj s přáteli</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero temporibus quis esse, aut eaque maiores, eligendi sed iusto distinctio accusantium, adipisci nulla alias.
+                        </p>
+                    </article>
+                    <article class="dobrod">
+                        <img src="images/mapa.svg" alt= "">
+                        <h2>Zažij dobrodružství</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero temporibus quis esse, aut eaque maiores, eligendi sed iusto distinctio accusantium, adipisci nulla alias.
+                        </p>
+                    </article>
+                </section>
+            </main>
+            <footer>
+                <div class="pata">
+                    &copy; 2016, Web od A do Z
+                </div>
+            </footer>
+
+
+
+
+        </div><!-- konec .obal -->
+
+        <script>
+            (function() {
+                let button = document.getElementById("button")
+                let ted = document.getElementById("ted")
+
+                button.addEventListener("click",function(){
+                    ted.classList.toggle("show"); 
+            })
+            
+            })()
+        </script>
+    </body>
+</html>
