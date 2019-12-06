@@ -25,8 +25,8 @@ body {
 }
 
 .obal {
-    /*width: auto; obsah stránky je omezený do pruhu širokého 960px*/
-    /*margin: 0 auto;  pruh je na stránce vycentrovaný */
+    max-width:960px; /*obsah stránky je omezený do pruhu širokého 960px*/
+    margin: 0 auto; /* pruh je na stránce vycentrovaný */
     background: white;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
@@ -68,7 +68,7 @@ body {
 
 .prvni{
     background-image: url(images/pozadi.jpg);
-    height:450px;
+    
     display:flex;
     flex-direction: row;
 }
@@ -178,7 +178,7 @@ footer{
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 845px) {
     .ruka{
         display: none;
     }
@@ -197,3 +197,7 @@ footer{
         margin: 1rem 1rem 1rem auto;
     }
 }
+@media (min-width: 576px) and (max-width:680px){
+    .hlavicka a{
+        padding:0.5rem;
+    }
